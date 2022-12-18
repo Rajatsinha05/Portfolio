@@ -1,6 +1,8 @@
 .App {
   text-align: center;
   font-size: 40px;
+
+  background-color: rgb(19, 18, 18);
 }
 
 .App-logo {
