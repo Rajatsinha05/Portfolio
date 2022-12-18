@@ -21,6 +21,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
+import PlaceIcon from '@mui/icons-material/Place';
 function Ui() {
   return (
     <Container p="10%" pt="10">
@@ -95,6 +96,15 @@ function Ui() {
 
                 <Link href="" fontSize="20" color="white" ml="9%">
                   Resume
+                </Link>
+              </Flex>
+            </Card>
+              <Card mt="10">
+              <Flex>
+              <PlaceIcon/>
+
+                <Link href="" fontSize="20" color="white" ml="9%">
+                  Ramagarh,Jharkhand,India
                 </Link>
               </Flex>
             </Card>
