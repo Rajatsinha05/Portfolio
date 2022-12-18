@@ -11,11 +11,11 @@ import {
   TabList,
   Tabs,
   Tag,
-  TagLabel,
+
   Text,
-  background,
+
 } from "@chakra-ui/react";
-import { blacken } from "@chakra-ui/theme-tools";
+
 import React from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
@@ -29,11 +29,13 @@ function Ui() {
         <Box overflow="scroll"
           w="30%"
           border=".7px solid gray"
+
+          borderRadius="15px"
           h="90vh"
           mr="15px"
           position="-webkit-sticky"
         >
-          <Center m="40px" borderRadius="25px" bg="hsl(0, 0%, 22%)">
+          <Center m="70px" borderRadius="25px" bg="hsl(0, 0%, 22%)">
             <Card>
               <CardBody>
                 <Image
@@ -45,7 +47,7 @@ function Ui() {
           </Center>
 
           <Center>
-            <Text color="white">Rajat Sinha</Text>
+            <Text color="white" mt="-10">Rajat Sinha</Text>
           </Center>
 
           <Center>
@@ -55,7 +57,7 @@ function Ui() {
           </Center>
           <Container w="90" h="2.6px" bg="gray" m="20px"></Container>
 
-          <Box>
+          {/* <Box>
             <Flex>
               <Box>
                 <Flex>
@@ -69,9 +71,29 @@ function Ui() {
                 Rajatsinha5467@gmail.com
               </Text>
             </Flex>
-          </Box>
+          </Box> */}
 
           <Box>
+
+
+
+
+
+          <Card mt="10">
+              <Flex>
+
+                <Card   bg="yellow.200" p="3" borderRadius="30" ml="10" ><EmailOutlinedIcon/></Card>
+                
+                <Link href="" fontSize="20" color="white" ml="12%">
+                  Rajatsinha5467@gmail.com
+                </Link>
+              </Flex>
+            </Card>
+
+
+
+
+
             <Card mt="10">
               <Flex>
 
@@ -116,7 +138,7 @@ function Ui() {
           </Box>
         </Box>
 
-        <Box w="70%" border=".7px solid gray" overflow="scroll" h="90vh">
+        <Box w="70%" border=".7px solid gray" overflow="scroll" h="90vh"   borderRadius="15px">
           <Flex justifyContent="flex-end">
             <Box></Box>
             <Box
@@ -124,7 +146,13 @@ function Ui() {
               border=".5px solid black"
               borderRadius="0px 15px"
             >
-              <Tabs isManual variant="enclosed" color="white">
+
+
+
+
+
+
+              <Tabs isManual variant="enclosed" color="white"   >
                 <TabList outline="none" border="none">
                   <Tab
                     _focus={{ color: "yellow", border: "none" }}
@@ -160,6 +188,17 @@ function Ui() {
                   </Tab>
                 </TabList>
               </Tabs>
+
+
+
+
+
+
+
+
+
+
+
             </Box>
           </Flex>
         </Box>
