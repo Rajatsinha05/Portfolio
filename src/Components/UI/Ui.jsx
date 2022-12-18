@@ -59,7 +59,7 @@ function Ui() {
             <Flex>
               <Box>
                 <Flex>
-                  <Card mt="5">
+                  <Card mt="5"    bg="yellow.200" p="2" borderRadius="30px" ml="10">
                     <EmailOutlinedIcon />
                   </Card>
                 </Flex>
@@ -74,7 +74,9 @@ function Ui() {
           <Box>
             <Card mt="10">
               <Flex>
-                <GitHubIcon />
+
+                <Card   bg="yellow.200" p="2" borderRadius="30px" ml="10" ><GitHubIcon /></Card>
+                
                 <Link href="" fontSize="20" color="white" ml="9%">
                   GitHub
                 </Link>
@@ -83,7 +85,8 @@ function Ui() {
 
             <Card mt="10">
               <Flex>
-                <LinkedInIcon />
+                <Card  bg="yellow.200" p="2" borderRadius="30px" ml="10"><LinkedInIcon /></Card>
+                
                 <Link href="" fontSize="20" color="white" ml="9%">
                   LinkedIn
                 </Link>
@@ -92,7 +95,8 @@ function Ui() {
 
             <Card mt="10">
               <Flex>
-                <WorkOutlineIcon bg="pink" />
+                <Card bg="yellow.200" p="2" borderRadius="30px" ml="10"> <WorkOutlineIcon bg="pink" /></Card>
+               
 
                 <Link href="" fontSize="20" color="white" ml="9%">
                   Resume
@@ -101,7 +105,8 @@ function Ui() {
             </Card>
               <Card mt="10">
               <Flex>
-              <PlaceIcon/>
+                <Card  bg="yellow.200" p="2" borderRadius="30px" ml="10">  <PlaceIcon/></Card>
+            
 
                 <Link href="" fontSize="20" color="white" ml="9%">
                   Ramagarh,Jharkhand,India
