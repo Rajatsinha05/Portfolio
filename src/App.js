@@ -4,7 +4,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-   Work in under progress.
+   Home page
+   
     </div>
   );
 }
