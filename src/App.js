@@ -6,8 +6,8 @@ import Ui from './Components/UI/Ui';
 function App() {
   return (
     <div className="App">
-home page
-   
+
+   <Ui/>
 
 
 
